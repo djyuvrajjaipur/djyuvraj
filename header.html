@@ -1,28 +1,129 @@
- <div class="col-md-4 social-icon text-center bleft">
-                    <span class="other" style="margin: 0px 0px 0px 15px;">
-                        <a target="_blank" href="https://facebook.com/djyuvrajjpr" class=""><img style="height: 18px;margin: 0px 0px 6px -10px;" src="https://www.allindiandjsclub.in/img/fblogo21072024.png"></a>
-                        <a target="_blank" href="https://instagram.com/djyuvrajjaipur"><img style="height: 18px;margin: 0px 0px 6px -10px;" src="https://www.allindiandjsclub.in/img/instalogo21072024.png"></a>
-                        <a target="_blank" href="https://X.com/djyuvrajjaipur" class=""><img style="height: 16px;margin: 0px 0px 6px -10px;" src="https://www.allindiandjsclub.in/img/twitterlogo21072024.png"></a>
-                        <a target="_blank" href="https://www.youtube.com/@DJYUVRAJ_" class=""><img style="height: 20px;margin: 0px 0px 6px -10px;" src="https://www.allindiandjsclub.in/img/youtubelogo21072024.png"></a>
-                        <a target="_blank" href="https://hearthis.at/djyuvrajjaipur" class=""><img style="height: 18px;margin: 0px 0px 6px -10px;" src="https://www.allindiandjsclub.in/img/herethis21072024.png"></a>
-                        <a target="_blank" href="https://t.me/djsyuvraj" class=""><img style="height: 20px;margin: 0px 0px 6px -10px;" src="https://www.allindiandjsclub.in/img/telegramlogo21072024.png"></a>
-                        <a target="_blank" href="https://wa.djyuvraj.in/" class=""><img style="height: 18px;margin: 0px 0px 6px -10px;" src="https://www.allindiandjsclub.in/img/whatsapplogo21072024.png"></a>
-                        <!--<a target="_blank" href="http://www.dailymotion.com/allindiandjsclub" class="ion bold text-lowercase d-font">d</a>-->
-                        <!--<a target="_blank" href="https://in.pinterest.com/allindiandjsclub" class=""><img style="height: 18px;margin: 0px 0px 6px -10px;" src="https://www.allindiandjsclub.in/img/pinterestlogo1.png"></a>-->
-                        <!--<a target="_blank" href="https://twitter.com/allindiandjclub" class=""><img style="height: 18px;margin: 0px 0px 6px -10px;" src="https://www.allindiandjsclub.in/img/twitterlogo1.png"></a>-->
-                        
-                        <a href="#" class="ion ion-ios-search-strong" id="opensearch" style="font-size: 24px;"></a>
-                    </span>
+<!-- Social Media Icons Section -->
+<div class="col-md-4 social-icon text-center bleft">
 
-                    <div class="row search-wrapper social-icon hidden">
-                        <div class="col-xs-10">
-                            <form class="di btn-block" action="https://www.allindiandjsclub.in/search" >
-                                <input placeholder="Search" type="text" name="q" class="search-nav ips">
-                            </form>
-                        </div>
-                        <div class="col-xs-2">
-                            <a href="#" class="ion ion-ios-close-empty di closebt" id="closesearch"></a>
-                        </div>
-                    </div>
+    <span class="other d-flex align-items-center justify-content-center flex-wrap">
 
-                </div>
+        <!-- Facebook -->
+        <a target="_blank" href="https://facebook.com/djyuvrajjpr" class="social-link">
+            <img src="https://www.allindiandjsclub.in/img/fblogo21072024.png" alt="Facebook">
+        </a>
+
+        <!-- Instagram -->
+        <a target="_blank" href="https://instagram.com/djyuvrajjaipur" class="social-link">
+            <img src="https://www.allindiandjsclub.in/img/instalogo21072024.png" alt="Instagram">
+        </a>
+
+        <!-- X / Twitter -->
+        <a target="_blank" href="https://x.com/djyuvrajjaipur" class="social-link">
+            <img src="https://www.allindiandjsclub.in/img/twitterlogo21072024.png" alt="Twitter">
+        </a>
+
+        <!-- YouTube -->
+        <a target="_blank" href="https://www.youtube.com/@DJYUVRAJ_" class="social-link">
+            <img src="https://www.allindiandjsclub.in/img/youtubelogo21072024.png" alt="YouTube">
+        </a>
+
+        <!-- HearThis -->
+        <a target="_blank" href="https://hearthis.at/djyuvrajjaipur" class="social-link">
+            <img src="https://www.allindiandjsclub.in/img/herethis21072024.png" alt="HearThis">
+        </a>
+
+        <!-- Telegram -->
+        <a target="_blank" href="https://t.me/djsyuvraj" class="social-link">
+            <img src="https://www.allindiandjsclub.in/img/telegramlogo21072024.png" alt="Telegram">
+        </a>
+
+        <!-- WhatsApp -->
+        <a target="_blank" href="https://wa.djyuvraj.in/" class="social-link">
+            <img src="https://www.allindiandjsclub.in/img/whatsapplogo21072024.png" alt="WhatsApp">
+        </a>
+
+        <!-- Search Icon -->
+        <a href="#" class="search-icon" id="opensearch">
+            <i class="ion ion-ios-search-strong"></i>
+        </a>
+
+    </span>
+
+    <!-- Search Box -->
+    <div class="row search-wrapper social-icon hidden" id="searchbox">
+
+        <div class="col-xs-10">
+            <form class="di btn-block" action="https://www.allindiandjsclub.in/search">
+                <input placeholder="Search..." type="text" name="q" class="search-nav ips">
+            </form>
+        </div>
+
+        <div class="col-xs-2">
+            <a href="#" class="closebt" id="closesearch">
+                <i class="ion ion-ios-close-empty"></i>
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- CSS -->
+<style>
+
+.social-icon .social-link img{
+    height:18px;
+    margin:0 6px;
+    transition:0.3s ease;
+}
+
+.social-icon .social-link img:hover{
+    transform:scale(1.15);
+    opacity:0.8;
+}
+
+.search-icon{
+    font-size:24px;
+    color:#fff;
+    margin-left:10px;
+}
+
+.search-wrapper{
+    margin-top:10px;
+}
+
+.search-nav{
+    width:100%;
+    height:40px;
+    border:none;
+    border-radius:5px;
+    padding:0 15px;
+    outline:none;
+}
+
+.closebt{
+    font-size:38px;
+    color:#fff;
+    line-height:40px;
+}
+
+.hidden{
+    display:none;
+}
+
+</style>
+
+<!-- jQuery -->
+<script>
+
+$(document).ready(function(){
+
+    $("#opensearch").click(function(e){
+        e.preventDefault();
+        $("#searchbox").removeClass("hidden");
+    });
+
+    $("#closesearch").click(function(e){
+        e.preventDefault();
+        $("#searchbox").addClass("hidden");
+    });
+
+});
+
+</script>
